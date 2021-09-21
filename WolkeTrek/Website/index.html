@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wolke Treck</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-menu" />
+        <label for="show-menu" class="menu-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <div class="content">
+          <div class="logo">
+            <a href="index.html"><span>Wolke</span>Trek</a>
+          </div>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li>
+              <a href="#" class="desktop-link">Packages</a>
+              <input type="checkbox" id="show-features" />
+              <label for="show-features">Packages</label>
+              <ul>
+                <li><a href="book.html">Kufri</a></li>
+                <li><a href="book.html">Kiarighat</a></li>
+                <li><a href="book.html">Chail</a></li>
+              </ul>
+            </li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- <div id="menu-bar" class="fas fa-bars"></div>
+
+      <div class="head">
+        <a href="index.html" class="logo"><span>WOLKE</span>Trek</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html"> Home </a>
+        <div class="dropdown">
+          <button class="dropbtn">Packages</button>
+          <div class="dropdown-content">
+            <a href="book.html">Kufri</a>
+            <a href="book.html">Chail</a>
+            <a href="book.html">Kiarighat</a>
+          </div>
+        </div>
+        <a href="gallery.html">Gallery</a>
+        <a href="book.html">Book</a>
+        <a href="#contact">Contact</a>
+      </nav> -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="gallery.html" class="btn">discover more</a>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="images/vid-1.mp4"
+          id="video-slider"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>food and drinks</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>safty guide</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>around the world</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>fastest travel</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>adventures</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/contact-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" required />
+            <input type="email" placeholder="email" required />
+          </div>
+          <div class="inputBox">
+            <input type="text" placeholder="number" maxlength="10" />
+            <input type="text" placeholder="subject" required />
+          </div>
+          <textarea
+            placeholder="message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <button class="button" formaction="thankyou.html">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            quas magni pariatur est accusantium voluptas enim nemo facilis sit
+            debitis.
+          </p>
+        </div>
+        <div class="box">
+          <h3>branch locations</h3>
+          <a href="#">New Delhi</a>
+          <a href="#">Mumbai</a>
+          <a href="#">Hyedrabad</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="book.html">book</a>
+          <a href="book.html">packages</a>
+          <a href="gallery.html">gallery</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">twitter</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        <span> &copy; WOLKE TREK </span> | all rights reserved!
+      </h1>
+    </section>
+  </body>
+</html>
